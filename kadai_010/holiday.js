@@ -10,11 +10,11 @@ const holidays = ["正月", "成人の日", "建国記念日", "天皇誕生日"
 //   console.log(holidays.length);
 // }
 // for文の場合
-for (i = 0; i <= 15; i += 1) {
+for (i = 0; i < holidays.length; i += 1) {
   console.log(holidays[i]);
 }
 
 // while文の場合
-while (i <= 15) {
+while (i < holidays.length) {
   console.log(holidays[i]);
 }

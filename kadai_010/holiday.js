@@ -17,4 +17,5 @@ i = 0;
 // while文の場合
 while (i < holidays.length) {
   console.log(holidays[i]);
+  i++
 }

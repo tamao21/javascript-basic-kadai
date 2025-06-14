@@ -13,7 +13,7 @@ const holidays = ["正月", "成人の日", "建国記念日", "天皇誕生日"
 for (i = 0; i < holidays.length; i += 1) {
   console.log(holidays[i]);
 }
-
+i = 0;
 // while文の場合
 while (i < holidays.length) {
   console.log(holidays[i]);

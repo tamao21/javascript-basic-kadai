@@ -1,3 +1,6 @@
-document.getElementsByTagName("button").addEventListener('click', () => {
-  document.getElementsByTagName("h2").textContent = new Date("ボタンをクリックしました");
+const click_btn = document.getElementById("text");
+const text = document.getElementById("text");
+
+click_btn.addEventListener('click', () => {
+  text.textContent = (ボタンをクリックしました);
 });
